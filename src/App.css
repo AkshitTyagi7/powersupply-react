@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .App-logo {
@@ -35,4 +37,94 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.topTable  {
+  border: 1px solid black;
+  width: 100%;
+  padding: 0;
+  height: 100px;
+}
+
+.topTable th {
+  background-color: #265a8e;
+  padding: 2px;
+  color: white;
+  font-size: 20px;
+}
+
+h1{
+  color: #3a7ec2;
+}
+
+.topTable td {
+  text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  background-color: #edf1fb;
+}
+.row{
+  display: flex;
+   gap: 30px;
+  flex-direction: row;
+  
+  align-items: top;
+  width: 100%;
+}
+.tableColumn{
+  width: 100%;
+}
+
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 5px;
+  font-weight: bold;
+}
+
+.table th {
+  background-color: #265a8e;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #edf1fc;
+}
+
+.table tr:nth-child(odd) {
+  background-color: white;
+}
+
+.tableHeading{
+  color: #435f8f;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px;
+}
+
+.violationText{
+  font-weight: bold;  font-size: 16px; color: rgb(0, 0, 255);
+}
+
+.greenBox{
+  background-color:GreenYellow;font-size:Medium;font-weight:bold;height:32px;Z-INDEX: 115;  width: 114px;
+}
+
+.Top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  padding: 10px;
+  align-self: center;
+  left: 0;
 }
